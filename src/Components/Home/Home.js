@@ -8,13 +8,14 @@ import "./Home.css";
 const Home = () => {
   const locationIcon = <FontAwesomeIcon icon={faLocationDot} />;
 
-  const [weather, setWeather, city, , loading, setLoading] =
-    useContext(MyContext);
+  const [weather, setWeather, city, , loading, setLoading] = useContext(
+    MyContext
+  );
   console.log(weather);
 
   useEffect(() => {
     fetch(
-      `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=hidden`
+      `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=3e147929795f8aa6f9736c159fe82269`
     )
       .then((res) => res.json())
       .then((data) => {
