@@ -1,16 +1,14 @@
 ### Weather App
 ---
-**Live Site : [Weather App](link)**
+**Live Site : [Weather App](https://weather-app-ncs.web.app/)**
 
 
 #### Weather App Overview:
 It's a dynamic website made for take appointment.
 
-* Home page shows some description, blogs, testimonials and option for taking appointment 
-* Get appoint button will place you a new page for taking appointment. There has a calender to choose appointment date and service category.
-* After selecting date and category, a form will pop up for taking your information.
-* If your appointment is scheduled, a success notification will pop up.
-* Authority can enter to dashbord by login, check appointment list by date and all patient list.
+* Home page shows the current temperature of a city, the minimum and maximum temperature of the day, humadity and wind.Also shows the next three days of weather temperature.
+* Searchbar page shows the searchbar to search temperature of any city.
+
 
 
 ### Technology and Dependency:

@@ -17,7 +17,7 @@ function App() {
     <MyContext.Provider
       value={[weather, setWeather, city, setCity, loading, setLoading]}
     >
-      <div className="App">
+      <div className=""App>
         <div className="bg position-relative h-100" style={bg}></div>
         <div className="cont position-absolute container">
           <Searchbar />
