@@ -1,0 +1,9 @@
+.sb{
+    max-width: 23rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
